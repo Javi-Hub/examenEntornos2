@@ -14,8 +14,8 @@ public class ConcursoTest {
 	@Test
 	public static void registrarUsuarioTest() {
 		nuevoUsuario = new Usuario();
-		Visitante Visitante1 = new Visitante("j@x.com", "j@x.com");
-		Visitante Visitante2 = new Visitante("j@x.com", "");
+		Visitante Visitante1 = new Visitante("jx.com", "2");
+		Visitante Visitante2 = new Visitante("jx.com", "");
 		
 		assertEquals(true, nuevoUsuario.registrarUsuario(Visitante1));
 		assertEquals(false, nuevoUsuario.registrarUsuario(Visitante2));
