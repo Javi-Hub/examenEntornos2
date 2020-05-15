@@ -4,6 +4,8 @@ public class Visitante {
 	
 	private String email;
 	private String contrasena;
+	private Visitante visitante;
+
 	
 	public Visitante(String email, String contrasena) {
 		super();
@@ -26,7 +28,15 @@ public class Visitante {
 	public void setContrasena(String contrasena) {
 		this.contrasena = contrasena;
 	}
-	
+
+	public Visitante getVisitante() {
+		return visitante;
+	}
+
+	public void setVisitante(Visitante visitante) {
+		this.visitante = visitante;
+	}
+
 	
 
 }
